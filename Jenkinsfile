@@ -6,7 +6,7 @@ tools{
 stages{
 	stage('Checkout'){
 		steps{
-			git branch:'master',url:''
+			git branch:'master',url:'https://github.com/Shukruth-Gowda/gu1.git'
 			}
 		}
 	stage('Build'){
